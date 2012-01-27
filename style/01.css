@@ -1,0 +1,108 @@
+/*CSS FILE*/
+
+body,td,th {
+  font-family: Tahoma;
+  font-size: 12px;
+  color: #000000;
+}
+body {
+  background-color: #FEFEFE;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+  
+#main {
+  border: 1px solid #000000; 
+  background: #ffffff;
+  width: 620px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#menu {
+  border-left: 1px solid #000000; 
+  float: right;
+  width: 120px;
+  background: #E0E0E0;
+  margin-left: 10px;
+}
+
+#menu ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+#menu li {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  list-style: none;
+  border-bottom: 1px solid #000000;
+  background-image: url(images/h1.gif);
+}
+
+a:link {
+  color: #808080;
+  text-decoration: underline;
+}
+a:visited {
+  text-decoration: underline;
+  color: #808080;
+}
+a:hover {
+  text-decoration: none;
+  color: #A0A0A0;
+}
+a:active {
+  text-decoration: underline;
+  color: #808080;
+}
+
+a.menulink {
+  display: block;
+  color: #000000;
+  font-size: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+a.menulink:hover {
+  color: #404040;
+  font-size: 11px;
+  background: #E6E4DF;
+}
+
+form{
+    text-align: center;
+}
+#banner {
+  background-color: #E6E4DF;
+  background-image: url(images/h1.gif);
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  padding: 4px 14px 4px 14px;
+  border-bottom: 1px solid #C6C4BF;
+  background-repeat: repeat-x;
+  margin-bottom: 6px;
+}
+    
+p {
+  margin: 5px 10px 5px 10px;
+}
+    
+h1 {
+  background-image: url(images/h1.gif);
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+  padding: 4px 14px 4px 14px;
+  border-top: 1px solid #C6C4BF;
+  border-bottom: 1px solid #C6C4BF;
+  margin: 0px;
+}
