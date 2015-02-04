@@ -1,23 +1,6 @@
-  __ _       _   _____ _ _      _    _           _   
- / _| |     | | |  ___(_) |    | |  | |         | |  
-| |_| | __ _| |_| |__  _| | ___| |__| | ___  ___| |_ 
-|  _| |/ _` | __|  __|| | |/ _ \  __  |/ _ \/ __| __|
-| | | | (_| | |_| |   | | |  __/ |  | | (_) \__ \ |_ 
-|_| |_|\__,_|\__|_|   |_|_|\___|_|  |_|\___/|___/\__|
-by Jim (www.j-fx.ws)                   version 1.15.2
-
-flatFileHost is a free file host script. It is modeled 
-after the many popular free file hosts like rapidshare 
-and megaupload. It is easy to set up and use and it 
-doesn't even require a MySQL database!
-
-Notice: Before you create your own file host site, 
-make sure that you have the resources to! If you don't
-have a lot of space and bandwidth, you shouldn't run 
-a file host. If people upload files to your site and 
-your site is taken down, they won't be very happy. 
-Also make sure that it isn't against your host's 
-terms of service to run a file host.
+Korfile is a fork of @Shahan's FPH script. His script was a fork of another script I believe, which was very outdated.
+He took that script and built on top of it, however he hasn't updated FPH in 3 years. So here I am, taking it over.
+Below is the commit log from what Shahan did. I'll be adding more as I patch bugs and change stuff.
 
 # WHATS NEW IN VERSION 1.15.2? ########################
   fixed:
@@ -88,8 +71,3 @@ How to customize:
    footer files
  - to edit the main page, faq, and tos, edit the 
    page in the pages folder
-
-Feel free to use this script in any way you'd like.
-Go ahead and modify and customize it however you see
-fit. If you like this script, leave the link back to me.
-I'd appreciate it. :)
